@@ -6,7 +6,7 @@ import http from "k6/http";
 
 import jsonpath from "https://jslib.k6.io/jsonpath/1.0.2/index.js";
 
-const users = JSON.parse(open('C:/Users/edward_harding/Documents/k6/users.json'));
+const users = JSON.parse(open('/ci/loadtests/users.json'));
 
 //This script creates one assignment, 3 students submit, bulk reopens, then deletes assignment.
 
