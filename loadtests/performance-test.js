@@ -18,7 +18,7 @@ export const options = {
   //],
   thresholds: {
    // 'failed requests': ['rate<0.1'], // threshold on a custom metric
-    'http_req_duration': ['p(95)<1000']  // threshold on a standard metric
+    'http_req_duration': ['p(95)<2000']  // threshold on a standard metric
   }
  }; 
 
